@@ -23,20 +23,5 @@ public class example{
 
 }
 }
-//create a book class with the following attribute:
-//bookid
-//auother
+
  
- //create a parameterized constructor to initialize these valuuse/
- //craete a method  displayinmforming ()to dispaly the book the detials.
-  //in  main().crate two boook objets using the construtor dispaly theeir
-  //information
-
-
-  //exersion 2
-  //create an empoyeecalss with:
-  //.id
-  //namw
-  //salarly
-  //carete 
-

@@ -1,24 +1,27 @@
 class Exersion {
-    int bookid ;
+    int bookid;
     String title;
-    String auothr name;
+    String author;
 
-    Constructorexersion1(int book id, string title, sitring author name0){
-    this.bookid =bookid;
-    this.title = title;
-    this.author name =author name;
-}
-void dispalyimp(){
-    Systrm.out.println("bookid"+bookid);
-    System.out.println("author"+author);
-    System.out.println("authot name"+author name);
-}
-}
- public Class ExersionA{
-    public static void main(string[]args){
-        ConstructorExersion1 obj = new exersion1(book id:1, title: your name,author name:Manish );
-        obj.dispalyimp();
 
+    ConstructorExersion(int bookid, String title, String author) {
+        this.bookid = bookid;
+        this.title = title;
+        this.author = author;
     }
 
- }
+    void dispalyimp() {
+        System.out.println("bookid " + bookid);
+        System.out.println("title " + title);
+        System.out.println("author name " + author);
+    }
+}
+
+public class Exersion1 {
+    public static void main(String[] args) {
+
+    Exersion1 obj = new Exersion(1, "Your Name", "Manish");
+
+        obj.dispalyimp();
+    }
+}
